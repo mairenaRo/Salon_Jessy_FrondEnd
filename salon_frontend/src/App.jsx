@@ -1,12 +1,15 @@
 import React from "react";
 import NavBarMenu from "./components/NavBarMenu";
+import { BrowserRouter as Router } from "react-router-dom";
 
-export function App (){
+function App (){
     return(
         <div>
-            <NavBarMenu />
+            <Router>
+                <NavBarMenu/>
+            </Router>
         </div>
     )
 }
 
-
+export default App;
