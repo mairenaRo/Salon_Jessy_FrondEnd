@@ -1,36 +1,31 @@
 import React from 'react';
-import {
-    Nav,
-    NavLink,
-    Bars,
-    NavMenu,
-    NavBtn,
-    NavBtnLink
-} from './NavBarStyle';
 
-const NavBarMenu = () => {
+const NavBarElements = () => {
     return (
-        <div>
-            <Nav>
-                <Bars>
-                    <NavMenu>
-                        <NavLink to="/inicio" activeStyle>
-                            Inicio
-                        </NavLink>
-                        <NavLink to="/inicio" activeStyle>
-                            Catalogo
-                        </NavLink>
-                        <NavLink to="/inicio" activeStyle>
-                            Acerca de
-                        </NavLink>
-                        <NavBtn>
-                            <NavBtnLink to='/sigin'>Iniciar Sesion</NavBtnLink>
-                        </NavBtn>
-                    </NavMenu>
-                </Bars>
-            </Nav>
+        <nav className="navbar navbar-expand-lg">
+        <div className="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link" href="#">Inicio</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Catalogo</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Acerca de</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Iniciar Sesion</a>
+              </li>
+            </ul>
+          </div>
         </div>
+        </nav>
     );
-};
+}
 
-export default NavBarMenu;
+export default NavBarElements

@@ -1,0 +1,22 @@
+body {
+    background-color: #D66BA0;
+}
+
+nav {
+    background-color: #67AAF9;
+    text-align: right;
+    height: 100px;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+a:hover {
+    color: #AF4D98;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans:wght@700&display=swap');
