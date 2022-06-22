@@ -32,4 +32,4 @@ const NavBarElements = () => {
     );
 }
 
-export default NavBarElements
+export default NavBarElements;
