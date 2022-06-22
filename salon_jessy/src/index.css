@@ -2,21 +2,30 @@ body {
     background-color: #D66BA0;
 }
 
-nav {
+.navbar {
     background-color: #67AAF9;
-    text-align: right;
     height: 100px;
-    width: 100%;
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
 
 .nav-link {
     color: #fff;
 }
 
-a:hover {
+.nav-link .active{
     color: #AF4D98;
+}
+
+.nav-link:hover {
+    color: #AF4D98;
+}
+
+.navbar-toggler {
+    position: absolute;
+    left: 85%;
+    transform: translate(-85%);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans:wght@700&display=swap');
