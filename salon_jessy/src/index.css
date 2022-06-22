@@ -2,30 +2,42 @@ body {
     background-color: #D66BA0;
 }
 
+:root{
+    --bs-navbar-active-color: #af4d98;
+}
+
+/*Nav bar*/
+
 .navbar {
+    text-align: right;
     background-color: #67AAF9;
-    height: 100px;
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
 
-
 .nav-link {
     color: #fff;
-}
-
-.nav-link .active{
-    color: #AF4D98;
 }
 
 .nav-link:hover {
     color: #AF4D98;
 }
 
-.navbar-toggler {
-    position: absolute;
-    left: 85%;
-    transform: translate(-85%);
+.nav-link:focus{
+    color: #AF4D98;
 }
 
+.navbar-toggler{
+    color: #AF4D98;
+}
+
+.container-fluid{
+    width: 70%;
+    justify-content: space-between;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+    align-content: center;
+}
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans:wght@700&display=swap');
