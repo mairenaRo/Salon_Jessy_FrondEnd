@@ -1,13 +1,13 @@
 import React from 'react';
 import NavBarElements from './components/NavBarElements';
-import {BrowserRouter as Router} from 'react-router-dom';
+import InicioElements from './components/InicioElements';
 
 function App() {
   return (
-    <Router>
+    <div>
       <NavBarElements />
-    </Router>
-      
+      <InicioElements />
+    </div>
   )
 }
 
