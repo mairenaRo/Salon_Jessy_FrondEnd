@@ -47,16 +47,34 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
     background-color: #fff;
+    height: 700px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
     width: 70%;
-    height: 1000px;
+    align-content: center;
 }
 
 h2 {
     padding-top: 15px;
     text-align: center;
     color: #af4d98;
+}
+
+/* Slider */
+.carousel{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.d-block {
+    margin: auto;
+}
+
+.carousel-item {
+    align-content: center;
+}
+
+.w-100 {
+    width: 30%!important;
 }
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans:wght@700&display=swap');
