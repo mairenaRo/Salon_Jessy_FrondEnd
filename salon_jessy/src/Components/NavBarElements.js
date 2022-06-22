@@ -1,12 +1,15 @@
 import React from 'react';
+import logo from './img/LogoJessy1.png';
 
 const NavBarElements = () => {
     return (
         <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-        <h1>LOGO</h1>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <a className="navbar-brand logo" href="#">
+            <img src={logo} width="85" height="50"/>
+          </a>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
           </button> 	
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
