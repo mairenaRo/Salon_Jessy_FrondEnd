@@ -33,6 +33,7 @@ const InicioElements = () => {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
+            <h2 className='Acerca de'>Acerca de</h2>
         </div>
     );
 }

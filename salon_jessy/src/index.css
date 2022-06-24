@@ -53,6 +53,8 @@ body {
     margin-bottom: 30px;
     width: 70%;
     align-content: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px #717171;
 }
 
 h2 {
@@ -76,5 +78,39 @@ h2 {
 
 .w-100 {
     width: 30%!important;
+}
+
+/* Login */
+.logcontainer {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70%;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px #717171;
+}
+
+.btn {
+    background-color: #af4d98;
+    color: #fff;
+}
+
+.btn:hover {
+    color: #af4d98;
+    border-color: #af4d98;
+}
+
+form {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.form-label, .form-check-label {
+    color: #AF4D98;
 }
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans:wght@700&display=swap');
