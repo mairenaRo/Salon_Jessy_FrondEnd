@@ -95,13 +95,13 @@ h2 {
 }
 
 .btn {
-    background-color: #af4d98;
+    background-color: #2EC0F9;
     color: #fff;
 }
 
 .btn:hover {
-    color: #af4d98;
-    border-color: #af4d98;
+    color: #2EC0F9;
+    border-color: #2EC0F9;
 }
 
 form {
@@ -112,5 +112,16 @@ form {
 
 .form-label, .form-check-label {
     color: #AF4D98;
+}
+
+/* Footer */
+.footerContainer {
+    background-color: #af4d98;
+    height: 115px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 5px 5px #565656;
 }
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans:wght@700&display=swap');

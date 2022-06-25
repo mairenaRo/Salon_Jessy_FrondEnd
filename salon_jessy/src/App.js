@@ -2,6 +2,7 @@ import React from 'react';
 import NavBarElements from './components/NavBarElements';
 import InicioElements from './components/InicioElements';
 import Login from './components/Login';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <NavBarElements />
       <InicioElements />
       <Login />
+      <Footer />
     </div>
   )
 }
