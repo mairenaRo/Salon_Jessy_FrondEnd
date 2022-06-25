@@ -15,7 +15,7 @@ const Login = () => {
                 <input type="password" className="form-control" id="exampleInputPassword1"/>
             </div>
             <div className="mb-3 form-check">
-                <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
+                <input type="checkbox" className="form-check-input"/>
                 <label className="form-check-label" for="exampleCheck1">Recuérdame</label>
             </div>
             <button type="submit" className="btn">Acceder</button>

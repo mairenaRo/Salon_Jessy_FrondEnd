@@ -34,6 +34,10 @@ const InicioElements = () => {
                 </button>
             </div>
             <h2 className='Acerca de'>Acerca de</h2>
+            <span>
+                <h3>Ubiquenos</h3>
+                <p>Estamos ubicados en Santa Gertrudis Sur de Grecia, del Bar el Río 500mts sentido San Rafael de Poas-Grecia. </p>
+            </span>
         </div>
     );
 }

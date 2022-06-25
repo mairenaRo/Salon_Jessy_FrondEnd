@@ -114,6 +114,16 @@ form {
     color: #AF4D98;
 }
 
+.form-check-input{
+    color: #2EC0F9;
+    border-color: #2EC0F9;
+}
+
+.form-check-input:checked {
+    background-color: #2EC0F9;
+    border-color: #2EC0F9;
+}
+
 /* Footer */
 .footerContainer {
     background-color: #af4d98;
@@ -124,4 +134,5 @@ form {
     justify-content: center;
     box-shadow: inset 0 5px 5px #565656;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans:wght@700&display=swap');
