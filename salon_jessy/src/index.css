@@ -1,9 +1,13 @@
 body {
-    background-color: #D66BA0;
+    background-color: #fff;
 }
 
 :root{
     --bs-navbar-active-color: #af4d98;
+}
+
+h2 {
+    text-align: center;
 }
 
 /*Nav bar*/
@@ -42,12 +46,14 @@ body {
 }
 
 /* Inicio Elements */
-
+.intro {
+    padding-top: 15px;
+    color: #FFF;
+}
 .container {
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
-    background-color: #fff;
-    height: 700px;
+    background-color: #af4d98;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -55,12 +61,6 @@ body {
     align-content: center;
     border-radius: 10px;
     box-shadow: 0 5px 5px #717171;
-}
-
-h2 {
-    padding-top: 15px;
-    text-align: center;
-    color: #af4d98;
 }
 
 /* Slider */
@@ -80,6 +80,36 @@ h2 {
     width: 30%!important;
 }
 
+/* Acerca de */
+#acercaDeContainer {
+    background-color: #D66BA0;
+    column-count: 2;
+    list-style: none;
+}
+
+.acercaDeTitulo {
+    padding-top: 15px;
+    text-align: center;
+    color: #fff;
+}
+.acercaDe {
+    color: #fff;
+}
+
+#wazelink{
+    color: #fff;
+}
+
+#wazelink:hover {
+    color: #67AAF9;
+}
+
+.leaflet-container {
+    margin: 15px;
+    width: 100%;
+    height: 300px;
+}
+
 /* Login */
 .logcontainer {
     font-family: 'Lato', sans-serif;
@@ -92,6 +122,10 @@ h2 {
     align-content: center;
     border-radius: 10px;
     box-shadow: 0 5px 5px #717171;
+}
+
+.iniciarSesion{
+    color: #af4d98;
 }
 
 .btn {
@@ -126,7 +160,7 @@ form {
 
 /* Footer */
 .footerContainer {
-    background-color: #af4d98;
+    background-color: #D66BA0;
     height: 115px;
     text-align: center;
     display: flex;

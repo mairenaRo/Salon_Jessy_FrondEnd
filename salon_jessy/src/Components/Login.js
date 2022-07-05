@@ -3,7 +3,7 @@ import React from 'react';
 const Login = () => {
     return (
         <div className="logcontainer" id="logContainer">
-            <h2 className='intro' id="iniciarSesion">Iniciar Sesión</h2>
+            <h2 className='iniciarSesion'>Iniciar Sesión</h2>
             <form>
             <div className="mb-3">
                 <label for="exampleInputEmail1" className="form-label">Correo Electrónico:</label>

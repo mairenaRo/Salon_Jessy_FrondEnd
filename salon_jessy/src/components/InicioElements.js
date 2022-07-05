@@ -6,7 +6,7 @@ import s3 from './img/s3.jpeg';
 const InicioElements = () => {
     return (
         <div className="container" id="inicioContainer">
-            <h2 className='intro'>Bienvenido a Salón Boutique Jessy</h2>
+            <h2 className='intro' id="intro">Bienvenido a Salón Boutique Jessy</h2>
             <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -33,11 +33,6 @@ const InicioElements = () => {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-            <h2 className='Acerca de'>Acerca de</h2>
-            <span>
-                <h3>Ubiquenos</h3>
-                <p>Estamos ubicados en Santa Gertrudis Sur de Grecia, del Bar el Río 500mts sentido San Rafael de Poas-Grecia. </p>
-            </span>
         </div>
     );
 }
