@@ -11,7 +11,7 @@ function App() {
     <div>
       <NavBarElements />
       <InicioElements />
-      <AgendarElement />
+      <AgendarElement/>
       <ContactoElement />
       <Login />
       <Footer />
