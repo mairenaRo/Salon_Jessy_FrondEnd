@@ -3,9 +3,9 @@ import { MapContainer, TileLayer, Marker, Popup} from 'react-leaflet';
 
 const ContactoElement = () => {
     return (
-        <div className='container' id="acercaDeContainer">
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example3" className='container' id="acercaDeContainer">
             <li>
-                <h2 className='acercaDeTitulo'>Contáctenos</h2>
+                <h2 className='acercaDeTitulo' id='contactus'>Contáctenos</h2>
                 <h3 className='acercaDe'>Ubíquenos</h3>
                 <p className='acercaDe'>Estamos ubicados en Alajuela centro, sobre calle ancha, frente al templo católico de la Agonía.
                 <br />Teléfono: +506 0000-0000

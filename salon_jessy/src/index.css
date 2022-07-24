@@ -80,6 +80,17 @@ h2 {
     width: 30%!important;
 }
 
+/* Agendar cita */
+#agendarCita{
+    padding-top: 15px;
+    background-color: #FFF;
+    padding-bottom: 15px;
+}
+
+.agendarCitaTitulo{
+    color: #D66BA0;
+}
+
 /* Acerca de */
 #acercaDeContainer {
     background-color: #D66BA0;

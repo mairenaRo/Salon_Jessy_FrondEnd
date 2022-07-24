@@ -5,7 +5,7 @@ import s3 from './img/s3.jpeg';
 
 const InicioElements = () => {
     return (
-        <div className="container" id="inicioContainer">
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example3" className="container" id="inicioContainer">
             <h2 className='intro' id="intro">Bienvenido a Salón Boutique Jessy</h2>
             <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
                 <div className="carousel-indicators">
