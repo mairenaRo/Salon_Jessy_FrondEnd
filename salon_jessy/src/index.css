@@ -81,14 +81,81 @@ h2 {
 }
 
 /* Agendar cita */
+.offcanvas {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#editarCitaButton:hover {
+    color: #2EC0F9;
+    border-color: #2EC0F9;
+}
+
+#guardarCita {
+    padding-top: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+#editarCita {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#editarCitaButton:focus {
+    color: #2EC0F9;
+    border-color: #2EC0F9;
+}
+.btn-primary:active{
+    color: #2EC0F9;
+    border-color: #2EC0F9;
+}
+
+.btn-primary{
+    border-radius: 0;
+    color: #2EC0F9;
+    border-color: #2EC0F9;
+}
+
 #agendarCita{
     padding-top: 15px;
     background-color: #FFF;
     padding-bottom: 15px;
 }
 
+#agendarCitaButton:focus{
+    color: #2EC0F9;
+    border-color: #2EC0F9;
+}
+
+.rbc-label{
+    color: #af4d98;
+}
+
+.agendarButtons{
+    display: flex;
+    justify-content: center;
+}
+
+#agendarCitaButton, #editarCitaButton{
+    border-radius: 0;
+}
+
+.rbc-toolbar-label{
+    color: #af4d98;
+}
+
+.rbc-btn-group {
+    display: none;
+}
+
 .agendarCitaTitulo{
     color: #D66BA0;
+}
+
+li {
+    list-style: none;
 }
 
 /* Acerca de */
