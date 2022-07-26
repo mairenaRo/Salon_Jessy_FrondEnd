@@ -22,9 +22,6 @@ const NavBarElements = () => {
                 <a className="nav-link" href="#agendarCita">Agendar Cita</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="index.html">Catálogo</a>
-              </li>
-              <li className="nav-item">
                 <a className="nav-link" href="#contactus">Contáctenos</a>
               </li>
               <li className="nav-item">
